@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/samwthomas.com/post/my-first-post/</loc>
+    <loc>//localhost:49805/samwthomas.com/post/my-first-post/</loc>
     <lastmod>2024-01-14T07:07:07+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/samwthomas.com/post/</loc>
+    <loc>//localhost:49805/samwthomas.com/post/</loc>
     <lastmod>2024-01-14T07:07:07+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/samwthomas.com/</loc>
+    <loc>//localhost:49805/samwthomas.com/</loc>
     <lastmod>2024-01-14T07:07:07+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/samwthomas.com/categories/</loc>
+    <loc>//localhost:49805/samwthomas.com/categories/</loc>
   </url><url>
-    <loc>//localhost:1313/samwthomas.com/tags/</loc>
+    <loc>//localhost:49805/samwthomas.com/tags/</loc>
   </url>
 </urlset>
