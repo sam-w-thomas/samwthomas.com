@@ -1,0 +1,5 @@
+baseURL = 'https:/samwthomas.com/'
+languageCode = 'en-us'
+title = 'Sam Thomas'
+theme = 'smol'
+sectionPagesMenu = 'main'
