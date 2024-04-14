@@ -1,4 +1,4 @@
-baseURL = 'https:/samwthomas.com/'
+baseURL = '/'
 languageCode = 'en-us'
 title = 'Sam Thomas'
 theme = 'smol'
@@ -22,3 +22,9 @@ sectionPagesMenu = 'main'
         name = "LinkedIn"
         url = "https://uk.linkedin.com/in/samuelthomas0"
         weight = 2 
+  [[menu.main]]
+        identifier = "books"
+        name = "Books"
+        url = "https://samwthomas.com"
+        weight = 3
+      
