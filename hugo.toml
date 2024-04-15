@@ -6,7 +6,7 @@ sectionPagesMenu = 'main'
 
 # Parameters
 [params]
-    subtitle = "Technical engineering and anything which interests me"
+    subtitle = "Technical engineering, plus anything which interests me"
     dateFmt = "02.01.2006 15:04"
 
 # Header
