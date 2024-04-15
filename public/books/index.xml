@@ -1,25 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sam Thomas</title>
-    <link>/</link>
-    <description>Recent content on Sam Thomas</description>
+    <title>Books on Sam Thomas</title>
+    <link>/books/</link>
+    <description>Recent content in Books on Sam Thomas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 15 Apr 2024 20:50:50 +0100</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/books/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Star Maker by Olaf Stapledon</title>
       <link>/books/star-maker-olaf-stapledon/</link>
       <pubDate>Mon, 15 Apr 2024 20:50:50 +0100</pubDate>
       <guid>/books/star-maker-olaf-stapledon/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>SPOF NetworkX Detection</title>
-      <link>/posts/2024-04-15-spof-networkx-detection/</link>
-      <pubDate>Mon, 15 Apr 2024 20:46:47 +0100</pubDate>
-      <guid>/posts/2024-04-15-spof-networkx-detection/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,13 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/tags/alt_realities/</loc>
+    <lastmod>2024-04-15T20:50:50+01:00</lastmod>
+  </url><url>
+    <loc>/books/</loc>
+    <lastmod>2024-04-15T20:50:50+01:00</lastmod>
+  </url><url>
+    <loc>/categories/</loc>
+    <lastmod>2024-04-15T20:50:50+01:00</lastmod>
+  </url><url>
+    <loc>/tags/evolution/</loc>
+    <lastmod>2024-04-15T20:50:50+01:00</lastmod>
+  </url><url>
+    <loc>/tags/imaginary_worlds/</loc>
+    <lastmod>2024-04-15T20:50:50+01:00</lastmod>
+  </url><url>
+    <loc>/tags/life/</loc>
+    <lastmod>2024-04-15T20:50:50+01:00</lastmod>
+  </url><url>
+    <loc>/tags/philosophy/</loc>
+    <lastmod>2024-04-15T20:50:50+01:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2024-04-15T20:50:50+01:00</lastmod>
+  </url><url>
+    <loc>/categories/science-fiction/</loc>
+    <lastmod>2024-04-15T20:50:50+01:00</lastmod>
+  </url><url>
+    <loc>/books/star-maker-olaf-stapledon/</loc>
+    <lastmod>2024-04-15T20:50:50+01:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2024-04-15T20:50:50+01:00</lastmod>
+  </url><url>
     <loc>/tags/automation/</loc>
     <lastmod>2024-04-15T20:46:47+01:00</lastmod>
   </url><url>
     <loc>/categories/automation/</loc>
-    <lastmod>2024-04-15T20:46:47+01:00</lastmod>
-  </url><url>
-    <loc>/categories/</loc>
     <lastmod>2024-04-15T20:46:47+01:00</lastmod>
   </url><url>
     <loc>/tags/ciscoconfparse/</loc>
@@ -29,16 +59,10 @@
     <loc>/tags/python/</loc>
     <lastmod>2024-04-15T20:46:47+01:00</lastmod>
   </url><url>
-    <loc>/</loc>
-    <lastmod>2024-04-15T20:46:47+01:00</lastmod>
-  </url><url>
     <loc>/tags/spof/</loc>
     <lastmod>2024-04-15T20:46:47+01:00</lastmod>
   </url><url>
     <loc>/posts/2024-04-15-spof-networkx-detection/</loc>
-    <lastmod>2024-04-15T20:46:47+01:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2024-04-15T20:46:47+01:00</lastmod>
   </url>
 </urlset>
