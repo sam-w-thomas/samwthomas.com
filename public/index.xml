@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sam Thomas</title>
-    <link>/</link>
+    <link>//localhost:1313/</link>
     <description>Recent content on Sam Thomas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 15 Apr 2024 20:50:50 +0100</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Star Maker by Olaf Stapledon</title>
-      <link>/books/star-maker-olaf-stapledon/</link>
+      <link>//localhost:1313/books/star-maker-olaf-stapledon/</link>
       <pubDate>Mon, 15 Apr 2024 20:50:50 +0100</pubDate>
-      <guid>/books/star-maker-olaf-stapledon/</guid>
+      <guid>//localhost:1313/books/star-maker-olaf-stapledon/</guid>
       <description></description>
     </item>
     <item>
       <title>SPOF NetworkX Detection</title>
-      <link>/posts/2024-04-15-spof-networkx-detection/</link>
+      <link>//localhost:1313/posts/2024-04-15-spof-networkx-detection/</link>
       <pubDate>Mon, 15 Apr 2024 20:46:47 +0100</pubDate>
-      <guid>/posts/2024-04-15-spof-networkx-detection/</guid>
-      <description></description>
+      <guid>//localhost:1313/posts/2024-04-15-spof-networkx-detection/</guid>
+      <description>Detecting Single Points of Failure using NetworkX The ability to think of a TCP/IP Network as just a mathematical graph, is something that is underutilised by typical (automation) engineers in my opinion. Graph theory is a well established field of mathematical, and converting a network back to it&amp;rsquo;s graphical state enables us to reap benefits at minimal cost.&#xA;In this blog post, I will introduce converting a (basic) network to a graph, at the IPv4 layer, using simply .</description>
     </item>
   </channel>
 </rss>
