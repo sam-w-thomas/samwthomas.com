@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Colonial_period on Sam Thomas</title>
-    <link>/tags/colonial_period/</link>
+    <link>//localhost:1313/tags/colonial_period/</link>
     <description>Recent content in Colonial_period on Sam Thomas</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 06 May 2024 12:00:00 +0100</lastBuildDate>
-    <atom:link href="/tags/colonial_period/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/colonial_period/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1493: Uncovering the New World Columbus Created by Charles C. Mann</title>
-      <link>/books/1493-charles-mann/</link>
+      <link>//localhost:1313/books/1493-charles-mann/</link>
       <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
-      <guid>/books/1493-charles-mann/</guid>
+      <guid>//localhost:1313/books/1493-charles-mann/</guid>
       <description></description>
     </item>
   </channel>

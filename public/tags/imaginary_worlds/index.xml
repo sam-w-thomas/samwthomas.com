@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Imaginary_worlds on Sam Thomas</title>
-    <link>/tags/imaginary_worlds/</link>
+    <link>//localhost:1313/tags/imaginary_worlds/</link>
     <description>Recent content in Imaginary_worlds on Sam Thomas</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 15 Apr 2024 20:50:50 +0100</lastBuildDate>
-    <atom:link href="/tags/imaginary_worlds/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/imaginary_worlds/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Star Maker by Olaf Stapledon</title>
-      <link>/books/star-maker-olaf-stapledon/</link>
+      <link>//localhost:1313/books/star-maker-olaf-stapledon/</link>
       <pubDate>Mon, 15 Apr 2024 20:50:50 +0100</pubDate>
-      <guid>/books/star-maker-olaf-stapledon/</guid>
+      <guid>//localhost:1313/books/star-maker-olaf-stapledon/</guid>
       <description></description>
     </item>
   </channel>

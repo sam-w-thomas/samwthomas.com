@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Empire-Building on Sam Thomas</title>
-    <link>/tags/empire-building/</link>
+    <link>//localhost:1313/tags/empire-building/</link>
     <description>Recent content in Empire-Building on Sam Thomas</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 06 May 2024 12:00:00 +0100</lastBuildDate>
-    <atom:link href="/tags/empire-building/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/empire-building/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Children of Time Series by Adrian Tchaikovsky</title>
-      <link>/books/children-of-time-adrian-tchaikovsky/</link>
+      <link>//localhost:1313/books/children-of-time-adrian-tchaikovsky/</link>
       <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
-      <guid>/books/children-of-time-adrian-tchaikovsky/</guid>
+      <guid>//localhost:1313/books/children-of-time-adrian-tchaikovsky/</guid>
       <description></description>
     </item>
     <item>
       <title>Rise Of The Empire Series by Ivan Kal</title>
-      <link>/books/olympus-rise-of-the-empire-ivan-kal/</link>
+      <link>//localhost:1313/books/olympus-rise-of-the-empire-ivan-kal/</link>
       <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
-      <guid>/books/olympus-rise-of-the-empire-ivan-kal/</guid>
+      <guid>//localhost:1313/books/olympus-rise-of-the-empire-ivan-kal/</guid>
       <description></description>
     </item>
     <item>
       <title>Safehold Series by David Weber</title>
-      <link>/books/safehold-david-weber/</link>
+      <link>//localhost:1313/books/safehold-david-weber/</link>
       <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
-      <guid>/books/safehold-david-weber/</guid>
+      <guid>//localhost:1313/books/safehold-david-weber/</guid>
       <description></description>
     </item>
   </channel>

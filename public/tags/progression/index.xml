@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Progression on Sam Thomas</title>
-    <link>/tags/progression/</link>
+    <link>//localhost:1313/tags/progression/</link>
     <description>Recent content in Progression on Sam Thomas</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 06 May 2024 12:00:00 +0100</lastBuildDate>
-    <atom:link href="/tags/progression/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/progression/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First Law Trilogy by Joe Abercombie</title>
-      <link>/books/the-first-law-trilogy-joe-abercombie/</link>
+      <link>//localhost:1313/books/the-first-law-trilogy-joe-abercombie/</link>
       <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
-      <guid>/books/the-first-law-trilogy-joe-abercombie/</guid>
+      <guid>//localhost:1313/books/the-first-law-trilogy-joe-abercombie/</guid>
       <description></description>
     </item>
   </channel>
