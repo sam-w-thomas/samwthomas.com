@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Columbus on Sam Thomas</title>
+    <link>/tags/columbus/</link>
+    <description>Recent content in Columbus on Sam Thomas</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 06 May 2024 12:00:00 +0100</lastBuildDate>
+    <atom:link href="/tags/columbus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1493: Uncovering the New World Columbus Created by Charles C. Mann</title>
+      <link>/books/1493-charles-mann/</link>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
+      <guid>/books/1493-charles-mann/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

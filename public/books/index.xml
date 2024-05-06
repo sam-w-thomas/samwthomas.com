@@ -2,17 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Books on Sam Thomas</title>
-    <link>//localhost:1313/books/</link>
+    <link>/books/</link>
     <description>Recent content in Books on Sam Thomas</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Apr 2024 20:50:50 +0100</lastBuildDate>
-    <atom:link href="//localhost:1313/books/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 May 2024 12:00:00 +0100</lastBuildDate>
+    <atom:link href="/books/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1493: Uncovering the New World Columbus Created by Charles C. Mann</title>
+      <link>/books/1493-charles-mann/</link>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
+      <guid>/books/1493-charles-mann/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Children of Time Series by Adrian Tchaikovsky</title>
+      <link>/books/children-of-time-adrian-tchaikovsky/</link>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
+      <guid>/books/children-of-time-adrian-tchaikovsky/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Coiling Dragon by I Eat Tomatoes</title>
+      <link>/books/coiling-dragon-i-eat-tomatoes/</link>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
+      <guid>/books/coiling-dragon-i-eat-tomatoes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>First Law Trilogy by Joe Abercombie</title>
+      <link>/books/the-first-law-trilogy-joe-abercombie/</link>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
+      <guid>/books/the-first-law-trilogy-joe-abercombie/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nudge: The Final Edition by Richard H. Thaler and Cass R. Sunstein</title>
+      <link>/books/nudge-richard-thaler-cass-sunstein/</link>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
+      <guid>/books/nudge-richard-thaler-cass-sunstein/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Poor Economics by Abhijit V. Banerjee and Esther Duflo</title>
+      <link>/books/poor-economics-abhijit-banerjee-esther-duflo/</link>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
+      <guid>/books/poor-economics-abhijit-banerjee-esther-duflo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rise Of The Empire Series by Ivan Kal</title>
+      <link>/books/olympus-rise-of-the-empire-ivan-kal/</link>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
+      <guid>/books/olympus-rise-of-the-empire-ivan-kal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Safehold Series by David Weber</title>
+      <link>/books/safehold-david-weber/</link>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
+      <guid>/books/safehold-david-weber/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Suneater Series by Christopher Ruocchino</title>
+      <link>/books/suneater-series-christopher-ruocchino/</link>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
+      <guid>/books/suneater-series-christopher-ruocchino/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Star Maker by Olaf Stapledon</title>
-      <link>//localhost:1313/books/star-maker-olaf-stapledon/</link>
+      <link>/books/star-maker-olaf-stapledon/</link>
       <pubDate>Mon, 15 Apr 2024 20:50:50 +0100</pubDate>
-      <guid>//localhost:1313/books/star-maker-olaf-stapledon/</guid>
+      <guid>/books/star-maker-olaf-stapledon/</guid>
       <description></description>
     </item>
   </channel>

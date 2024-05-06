@@ -8,6 +8,7 @@ sectionPagesMenu = 'main'
 [params]
     subtitle = "Technical engineering, plus anything which interests me"
     dateFmt = "02.01.2006 15:04"
+    mainSections = ["posts"]
 
 # Header
 [menu]
@@ -22,9 +23,4 @@ sectionPagesMenu = 'main'
         name = "LinkedIn"
         url = "https://uk.linkedin.com/in/samuelthomas0"
         weight = 2 
-  [[menu.main]]
-        identifier = "books"
-        name = "Books"
-        url = "https://samwthomas.com"
-        weight = 3
       

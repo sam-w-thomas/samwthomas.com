@@ -2,94 +2,416 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Sam Thomas</title>
-    <link>//localhost:1313/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Sam Thomas</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Apr 2024 20:50:50 +0100</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Alt_realities</title>
-      <link>//localhost:1313/tags/alt_realities/</link>
-      <pubDate>Mon, 15 Apr 2024 20:50:50 +0100</pubDate>
-      <guid>//localhost:1313/tags/alt_realities/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Evolution</title>
-      <link>//localhost:1313/tags/evolution/</link>
-      <pubDate>Mon, 15 Apr 2024 20:50:50 +0100</pubDate>
-      <guid>//localhost:1313/tags/evolution/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Imaginary_worlds</title>
-      <link>//localhost:1313/tags/imaginary_worlds/</link>
-      <pubDate>Mon, 15 Apr 2024 20:50:50 +0100</pubDate>
-      <guid>//localhost:1313/tags/imaginary_worlds/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Life</title>
-      <link>//localhost:1313/tags/life/</link>
-      <pubDate>Mon, 15 Apr 2024 20:50:50 +0100</pubDate>
-      <guid>//localhost:1313/tags/life/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Philosophy</title>
-      <link>//localhost:1313/tags/philosophy/</link>
-      <pubDate>Mon, 15 Apr 2024 20:50:50 +0100</pubDate>
-      <guid>//localhost:1313/tags/philosophy/</guid>
-      <description></description>
-    </item>
+    <lastBuildDate>Mon, 06 May 2024 14:00:00 +0100</lastBuildDate>
+    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Automation</title>
-      <link>//localhost:1313/tags/automation/</link>
-      <pubDate>Mon, 15 Apr 2024 20:46:47 +0100</pubDate>
-      <guid>//localhost:1313/tags/automation/</guid>
+      <link>/tags/automation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/automation/</guid>
       <description></description>
     </item>
     <item>
       <title>Ciscoconfparse</title>
-      <link>//localhost:1313/tags/ciscoconfparse/</link>
-      <pubDate>Mon, 15 Apr 2024 20:46:47 +0100</pubDate>
-      <guid>//localhost:1313/tags/ciscoconfparse/</guid>
+      <link>/tags/ciscoconfparse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/ciscoconfparse/</guid>
       <description></description>
     </item>
     <item>
       <title>Graph</title>
-      <link>//localhost:1313/tags/graph/</link>
-      <pubDate>Mon, 15 Apr 2024 20:46:47 +0100</pubDate>
-      <guid>//localhost:1313/tags/graph/</guid>
+      <link>/tags/graph/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/graph/</guid>
       <description></description>
     </item>
     <item>
       <title>Ipv4</title>
-      <link>//localhost:1313/tags/ipv4/</link>
-      <pubDate>Mon, 15 Apr 2024 20:46:47 +0100</pubDate>
-      <guid>//localhost:1313/tags/ipv4/</guid>
+      <link>/tags/ipv4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/ipv4/</guid>
       <description></description>
     </item>
     <item>
       <title>Networkx</title>
-      <link>//localhost:1313/tags/networkx/</link>
-      <pubDate>Mon, 15 Apr 2024 20:46:47 +0100</pubDate>
-      <guid>//localhost:1313/tags/networkx/</guid>
+      <link>/tags/networkx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/networkx/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>//localhost:1313/tags/python/</link>
-      <pubDate>Mon, 15 Apr 2024 20:46:47 +0100</pubDate>
-      <guid>//localhost:1313/tags/python/</guid>
+      <link>/tags/python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/python/</guid>
       <description></description>
     </item>
     <item>
       <title>Spof</title>
-      <link>//localhost:1313/tags/spof/</link>
-      <pubDate>Mon, 15 Apr 2024 20:46:47 +0100</pubDate>
-      <guid>//localhost:1313/tags/spof/</guid>
+      <link>/tags/spof/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/spof/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Action</title>
+      <link>/tags/action/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/action/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Adventure</title>
+      <link>/tags/adventure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/adventure/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Alternative-Earth</title>
+      <link>/tags/alternative-earth/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/alternative-earth/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Behavioural_economics</title>
+      <link>/tags/behavioural_economics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/behavioural_economics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bussiness</title>
+      <link>/tags/bussiness/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/bussiness/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chineese</title>
+      <link>/tags/chineese/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/chineese/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Civilisation</title>
+      <link>/tags/civilisation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/civilisation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Colonial_period</title>
+      <link>/tags/colonial_period/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/colonial_period/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Columbian_exchange</title>
+      <link>/tags/columbian_exchange/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/columbian_exchange/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Columbus</title>
+      <link>/tags/columbus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/columbus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cultivation</title>
+      <link>/tags/cultivation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/cultivation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Economics</title>
+      <link>/tags/economics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/economics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Empathy</title>
+      <link>/tags/empathy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/empathy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Empire-Building</title>
+      <link>/tags/empire-building/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/empire-building/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Encourage</title>
+      <link>/tags/encourage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/encourage/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Evolution</title>
+      <link>/tags/evolution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/evolution/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fantasy</title>
+      <link>/tags/fantasy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/fantasy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Far-Future</title>
+      <link>/tags/far-future/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/far-future/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fiancial_investment</title>
+      <link>/tags/fiancial_investment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/fiancial_investment/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Future</title>
+      <link>/tags/future/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/future/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Future-Earth</title>
+      <link>/tags/future-earth/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/future-earth/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gods</title>
+      <link>/tags/gods/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/gods/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gods&amp;kings</title>
+      <link>/tags/godskings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/godskings/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>History</title>
+      <link>/tags/history/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/history/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Human_geography</title>
+      <link>/tags/human_geography/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/human_geography/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ideas</title>
+      <link>/tags/ideas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/ideas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Imperial</title>
+      <link>/tags/imperial/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/imperial/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Influence</title>
+      <link>/tags/influence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/influence/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Influence_people</title>
+      <link>/tags/influence_people/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/influence_people/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kingdom_building</title>
+      <link>/tags/kingdom_building/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/kingdom_building/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kingdom-Building</title>
+      <link>/tags/kingdom-building/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/kingdom-building/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kings</title>
+      <link>/tags/kings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/kings/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Native_american</title>
+      <link>/tags/native_american/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/native_american/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>New_world</title>
+      <link>/tags/new_world/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/new_world/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ngo</title>
+      <link>/tags/ngo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/ngo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Overpowered</title>
+      <link>/tags/overpowered/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/overpowered/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Plants</title>
+      <link>/tags/plants/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/plants/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Poor</title>
+      <link>/tags/poor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/poor/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Povertry</title>
+      <link>/tags/povertry/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/povertry/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Progression</title>
+      <link>/tags/progression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/progression/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rags_to_riches</title>
+      <link>/tags/rags_to_riches/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/rags_to_riches/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Romance</title>
+      <link>/tags/romance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/romance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scope</title>
+      <link>/tags/scope/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/scope/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Space-Opera</title>
+      <link>/tags/space-opera/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/space-opera/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vikings</title>
+      <link>/tags/vikings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/vikings/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>War</title>
+      <link>/tags/war/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/war/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>White-Knight</title>
+      <link>/tags/white-knight/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/white-knight/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Alt_realities</title>
+      <link>/tags/alt_realities/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/alt_realities/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Imaginary_worlds</title>
+      <link>/tags/imaginary_worlds/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/imaginary_worlds/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Life</title>
+      <link>/tags/life/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/life/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Philosophy</title>
+      <link>/tags/philosophy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/philosophy/</guid>
       <description></description>
     </item>
   </channel>

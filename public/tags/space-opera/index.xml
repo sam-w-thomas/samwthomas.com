@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Space-Opera on Sam Thomas</title>
+    <link>/tags/space-opera/</link>
+    <description>Recent content in Space-Opera on Sam Thomas</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 06 May 2024 12:00:00 +0100</lastBuildDate>
+    <atom:link href="/tags/space-opera/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rise Of The Empire Series by Ivan Kal</title>
+      <link>/books/olympus-rise-of-the-empire-ivan-kal/</link>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
+      <guid>/books/olympus-rise-of-the-empire-ivan-kal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Suneater Series by Christopher Ruocchino</title>
+      <link>/books/suneater-series-christopher-ruocchino/</link>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
+      <guid>/books/suneater-series-christopher-ruocchino/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

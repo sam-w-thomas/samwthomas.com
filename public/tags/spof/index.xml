@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Spof on Sam Thomas</title>
-    <link>//localhost:1313/tags/spof/</link>
+    <link>/tags/spof/</link>
     <description>Recent content in Spof on Sam Thomas</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Apr 2024 20:46:47 +0100</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/spof/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 May 2024 14:00:00 +0100</lastBuildDate>
+    <atom:link href="/tags/spof/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SPOF NetworkX Detection</title>
-      <link>//localhost:1313/posts/2024-04-15-spof-networkx-detection/</link>
-      <pubDate>Mon, 15 Apr 2024 20:46:47 +0100</pubDate>
-      <guid>//localhost:1313/posts/2024-04-15-spof-networkx-detection/</guid>
-      <description>Detecting Single Points of Failure using NetworkX The ability to think of a TCP/IP Network as just a mathematical graph, is something that is underutilised by typical (automation) engineers in my opinion. Graph theory is a well established field of mathematical, and converting a network back to it&amp;rsquo;s graphical state enables us to reap benefits at minimal cost.&#xA;In this blog post, I will introduce converting a (basic) network to a graph, at the IPv4 layer, using simply .</description>
+      <link>/posts/spof-networkx-detection/</link>
+      <pubDate>Mon, 06 May 2024 14:00:00 +0100</pubDate>
+      <guid>/posts/spof-networkx-detection/</guid>
+      <description>Detecting Single Points of Failure using NetworkX The ability to think of a TCP/IP Network as just a mathematical graph, is underutilised by typical (automation) engineers in my opinion. Graph theory is a well established field of mathematics, and converting a (computer) network back to it&amp;rsquo;s graphical state enables us to reap benefits at minimal cost.&#xA;In this blog post, I will introduce converting a (basic) network to a graph, at the IPv4 layer, using Cisco .</description>
     </item>
   </channel>
 </rss>
