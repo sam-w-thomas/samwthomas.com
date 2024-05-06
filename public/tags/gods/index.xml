@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gods on Sam Thomas</title>
-    <link>/tags/gods/</link>
+    <link>//localhost:1313/tags/gods/</link>
     <description>Recent content in Gods on Sam Thomas</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 06 May 2024 12:00:00 +0100</lastBuildDate>
-    <atom:link href="/tags/gods/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/gods/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Suneater Series by Christopher Ruocchino</title>
-      <link>/books/suneater-series-christopher-ruocchino/</link>
+      <link>//localhost:1313/books/suneater-series-christopher-ruocchino/</link>
       <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
-      <guid>/books/suneater-series-christopher-ruocchino/</guid>
+      <guid>//localhost:1313/books/suneater-series-christopher-ruocchino/</guid>
       <description></description>
     </item>
   </channel>

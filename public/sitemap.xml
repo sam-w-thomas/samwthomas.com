@@ -2,244 +2,244 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/tags/automation/</loc>
+    <loc>//localhost:1313/tags/automation/</loc>
     <lastmod>2024-05-06T14:00:00+01:00</lastmod>
   </url><url>
-    <loc>/categories/automation/</loc>
+    <loc>//localhost:1313/categories/automation/</loc>
     <lastmod>2024-05-06T14:00:00+01:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>//localhost:1313/categories/</loc>
     <lastmod>2024-05-06T14:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/ciscoconfparse/</loc>
+    <loc>//localhost:1313/tags/ciscoconfparse/</loc>
     <lastmod>2024-05-06T14:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/graph/</loc>
+    <loc>//localhost:1313/tags/graph/</loc>
     <lastmod>2024-05-06T14:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/ipv4/</loc>
+    <loc>//localhost:1313/tags/ipv4/</loc>
     <lastmod>2024-05-06T14:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/networkx/</loc>
+    <loc>//localhost:1313/tags/networkx/</loc>
     <lastmod>2024-05-06T14:00:00+01:00</lastmod>
   </url><url>
-    <loc>/posts/</loc>
+    <loc>//localhost:1313/posts/</loc>
     <lastmod>2024-05-06T14:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/python/</loc>
+    <loc>//localhost:1313/tags/python/</loc>
     <lastmod>2024-05-06T14:00:00+01:00</lastmod>
   </url><url>
-    <loc>/</loc>
+    <loc>//localhost:1313/</loc>
     <lastmod>2024-05-06T14:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/spof/</loc>
+    <loc>//localhost:1313/tags/spof/</loc>
     <lastmod>2024-05-06T14:00:00+01:00</lastmod>
   </url><url>
-    <loc>/posts/spof-networkx-detection/</loc>
+    <loc>//localhost:1313/posts/spof-networkx-detection/</loc>
     <lastmod>2024-05-06T14:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>//localhost:1313/tags/</loc>
     <lastmod>2024-05-06T14:00:00+01:00</lastmod>
   </url><url>
-    <loc>/books/1493-charles-mann/</loc>
+    <loc>//localhost:1313/books/1493-charles-mann/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/action/</loc>
+    <loc>//localhost:1313/tags/action/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/adventure/</loc>
+    <loc>//localhost:1313/tags/adventure/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/alternative-earth/</loc>
+    <loc>//localhost:1313/tags/alternative-earth/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/behavioural_economics/</loc>
+    <loc>//localhost:1313/tags/behavioural_economics/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/categories/book/</loc>
+    <loc>//localhost:1313/categories/book/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/books/</loc>
+    <loc>//localhost:1313/books/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/bussiness/</loc>
+    <loc>//localhost:1313/tags/bussiness/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/books/children-of-time-adrian-tchaikovsky/</loc>
+    <loc>//localhost:1313/books/children-of-time-adrian-tchaikovsky/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/chineese/</loc>
+    <loc>//localhost:1313/tags/chineese/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/civilisation/</loc>
+    <loc>//localhost:1313/tags/civilisation/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/books/coiling-dragon-i-eat-tomatoes/</loc>
+    <loc>//localhost:1313/books/coiling-dragon-i-eat-tomatoes/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/colonial_period/</loc>
+    <loc>//localhost:1313/tags/colonial_period/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/columbian_exchange/</loc>
+    <loc>//localhost:1313/tags/columbian_exchange/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/columbus/</loc>
+    <loc>//localhost:1313/tags/columbus/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/cultivation/</loc>
+    <loc>//localhost:1313/tags/cultivation/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/economics/</loc>
+    <loc>//localhost:1313/tags/economics/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/categories/educational/</loc>
+    <loc>//localhost:1313/categories/educational/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/empathy/</loc>
+    <loc>//localhost:1313/tags/empathy/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/empire-building/</loc>
+    <loc>//localhost:1313/tags/empire-building/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/encourage/</loc>
+    <loc>//localhost:1313/tags/encourage/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/evolution/</loc>
+    <loc>//localhost:1313/tags/evolution/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/fantasy/</loc>
+    <loc>//localhost:1313/tags/fantasy/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/categories/fantasy/</loc>
+    <loc>//localhost:1313/categories/fantasy/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/far-future/</loc>
+    <loc>//localhost:1313/tags/far-future/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/fiancial_investment/</loc>
+    <loc>//localhost:1313/tags/fiancial_investment/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/books/the-first-law-trilogy-joe-abercombie/</loc>
+    <loc>//localhost:1313/books/the-first-law-trilogy-joe-abercombie/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/future/</loc>
+    <loc>//localhost:1313/tags/future/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/future-earth/</loc>
+    <loc>//localhost:1313/tags/future-earth/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/gods/</loc>
+    <loc>//localhost:1313/tags/gods/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/godskings/</loc>
+    <loc>//localhost:1313/tags/godskings/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/history/</loc>
+    <loc>//localhost:1313/tags/history/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/human_geography/</loc>
+    <loc>//localhost:1313/tags/human_geography/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/ideas/</loc>
+    <loc>//localhost:1313/tags/ideas/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/imperial/</loc>
+    <loc>//localhost:1313/tags/imperial/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/influence/</loc>
+    <loc>//localhost:1313/tags/influence/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/influence_people/</loc>
+    <loc>//localhost:1313/tags/influence_people/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/kingdom_building/</loc>
+    <loc>//localhost:1313/tags/kingdom_building/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/kingdom-building/</loc>
+    <loc>//localhost:1313/tags/kingdom-building/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/kings/</loc>
+    <loc>//localhost:1313/tags/kings/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/native_american/</loc>
+    <loc>//localhost:1313/tags/native_american/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/new_world/</loc>
+    <loc>//localhost:1313/tags/new_world/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/ngo/</loc>
+    <loc>//localhost:1313/tags/ngo/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/books/nudge-richard-thaler-cass-sunstein/</loc>
+    <loc>//localhost:1313/books/nudge-richard-thaler-cass-sunstein/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/overpowered/</loc>
+    <loc>//localhost:1313/tags/overpowered/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/plants/</loc>
+    <loc>//localhost:1313/tags/plants/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/poor/</loc>
+    <loc>//localhost:1313/tags/poor/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/books/poor-economics-abhijit-banerjee-esther-duflo/</loc>
+    <loc>//localhost:1313/books/poor-economics-abhijit-banerjee-esther-duflo/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/povertry/</loc>
+    <loc>//localhost:1313/tags/povertry/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/progression/</loc>
+    <loc>//localhost:1313/tags/progression/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/rags_to_riches/</loc>
+    <loc>//localhost:1313/tags/rags_to_riches/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/books/olympus-rise-of-the-empire-ivan-kal/</loc>
+    <loc>//localhost:1313/books/olympus-rise-of-the-empire-ivan-kal/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/romance/</loc>
+    <loc>//localhost:1313/tags/romance/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/books/safehold-david-weber/</loc>
+    <loc>//localhost:1313/books/safehold-david-weber/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/categories/science-fiction/</loc>
+    <loc>//localhost:1313/categories/science-fiction/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/scope/</loc>
+    <loc>//localhost:1313/tags/scope/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/categories/series/</loc>
+    <loc>//localhost:1313/categories/series/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/space-opera/</loc>
+    <loc>//localhost:1313/tags/space-opera/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/books/suneater-series-christopher-ruocchino/</loc>
+    <loc>//localhost:1313/books/suneater-series-christopher-ruocchino/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/vikings/</loc>
+    <loc>//localhost:1313/tags/vikings/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/war/</loc>
+    <loc>//localhost:1313/tags/war/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/white-knight/</loc>
+    <loc>//localhost:1313/tags/white-knight/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/alt_realities/</loc>
+    <loc>//localhost:1313/tags/alt_realities/</loc>
     <lastmod>2024-04-15T20:50:50+01:00</lastmod>
   </url><url>
-    <loc>/tags/imaginary_worlds/</loc>
+    <loc>//localhost:1313/tags/imaginary_worlds/</loc>
     <lastmod>2024-04-15T20:50:50+01:00</lastmod>
   </url><url>
-    <loc>/tags/life/</loc>
+    <loc>//localhost:1313/tags/life/</loc>
     <lastmod>2024-04-15T20:50:50+01:00</lastmod>
   </url><url>
-    <loc>/tags/philosophy/</loc>
+    <loc>//localhost:1313/tags/philosophy/</loc>
     <lastmod>2024-04-15T20:50:50+01:00</lastmod>
   </url><url>
-    <loc>/books/star-maker-olaf-stapledon/</loc>
+    <loc>//localhost:1313/books/star-maker-olaf-stapledon/</loc>
     <lastmod>2024-04-15T20:50:50+01:00</lastmod>
   </url>
 </urlset>

@@ -19,12 +19,12 @@ tags:
 
 # Detecting Single Points of Failure using NetworkX
 
-The ability to think of a TCP/IP Network as just a mathematical graph, is underutilised by typical (automation) engineers in my opinion. Graph theory is a well established field of mathematics, and converting a (computer) network back to it's graphical state enables us to reap benefits at minimal cost.
+The ability to think of a TCP/IP Network as just a mathematical graph is underutilised by typical (network automation) engineers in my opinion. Graph theory is a well established field of mathematics, and converting a (computer) network to it's graphical state enables us to reap benefits at minimal cost.
 
-In this blog post, I will introduce converting a (basic) network to a graph, at the IPv4 layer, using Cisco .cfg files. We can manuplate this graph to detect Single Points of Failure (SPoF). 
-This will be the first post in using graphs to gain visibility in your network. 
+In this blog post, I introduce converting a (basic) network to a graph, at the IPv4 layer, using Cisco .cfg files. We can manuplate this graph to detect Single Points of Failure (SPoF) and audit network reliability.
+This will be the first post in using graphs to gain visibility into (computer) networks.
 
-GitHub Repository for NetApollo,  Python implementation of the approach discussed: https://github.com/sam-w-thomas/NetApollo
+GitHub Repository for NetApollo, Python implementation of the approach discussed: https://github.com/sam-w-thomas/NetApollo
 
 Is is worthwhile pointing out, networking modelling is already a well-practiced disicpline. This is just my contribution! 
 
@@ -43,20 +43,21 @@ Graphs come in two _typical_ flavours:
 * Directed Graphs - edges have a concept of direction
 * Undirected Graphs - edges have no concept of direction
   
+Example of a basic graph.
 ![Basic graph](/graph.PNG)
 
 Here is the graph, but it's in it's (physical) network form.
 ![Graph covnereted to a (basic) physical view of a network](/network_graph.PNG)
 
-For the purposes of simplicity, all graphs in this post will be undirected graphs. Although, we could use a Directed Graph to represent receive and transmit. 
+For the purposes of simplicity, all graphs in this post will be undirected graphs. Although, we could use a directed Graph to represent receive and transmit. 
 
-## Converting a TCP/IP network to a graph - Theory
+## Converting a TCP/IP network to a graph
 
-Now, you can't convert a TCP/IP network to just a single graph; We have control, data and management planes for a reason. 
+Now, you can't convert a TCP/IP network into just a single graph; We have control, data and management planes for a reason. 
 
-However, we can convert parts of a network to a single graph. For example, the IPv4 layer or the [OSPF Link State Database](https://hbristoweu.wordpress.com/2020/09/19/visualising-the-ospf-lsdb-with-python-textfsm-networkx-and-pygraphviz-and-yaml-dumping-the-lsdb/). *We will create a single graph at the IPv4 layer*.
+However, we can convert parts of a network to a single graph. For example, the IPv4 layer or the [OSPF Link State Database](https://hbristoweu.wordpress.com/2020/09/19/visualising-the-ospf-lsdb-with-python-textfsm-networkx-and-pygraphviz-and-yaml-dumping-the-lsdb/). We shall create a single graph at the IPv4 layer in this blog post.
 
-However, to increase complexity and ability, you could layer graphs. As you'd expect, graph theory already has a word and ability for this already - Multilayer graphs. 
+However, to increase complexity and ability, you could layer graphs. As you'd expect, graph theory has a word and ability for this already - Multilayer graphs. 
 ![Example of a Multilayer Graph](https://i0.wp.com/braph.org/wp-content/uploads/2022/04/multiplex.png)
 
 ## Converting a TCP/IP network to a graph - Implementation
@@ -86,13 +87,13 @@ If we apply this logic to an actual network, the one below, we get the following
 ![enter image description here](/ipv4_graph_example_2.PNG)  
 ![enter image description here](/ipv4_graph_example.PNG)
   
-We now have a table of the IPv4 addressing for an entire network. Using scale techniques, such as [Pandas](https://pandas.pydata.org/) Dataframes and [Numpy](https://numpy.org/devdocs/index.html/), we could increase the efficiency of processing to handle large furthermore - due to the simplicty of the data structured, processing could be split into multiple nodes, further increasing peformace/scalability. 
+We now have a table of the IPv4 addressing for an entire network, an "interface-address table". Using scale techniques, such as [Pandas Dataframes](https://pandas.pydata.org/) and [Numpy](https://numpy.org/devdocs/index.html/), we could increase the efficiency of processing.
   
 
 ### Fitering interfaces based on state
 
 I want to keep this relatively short, as I did not implement this approach.
-However, you could use keys in the static configuration (e.g. interface names) and combine this with tools, such as paramiko/TextFSM, which would enable you to filter links based on a state of your choosing, such as `down`. Alternatively, you could also layer on information like errors and increase graph complexity to achieve more. 
+However, you could use keys in the static configuration (e.g. interface names) and combine this with tools, such as paramiko/TextFSM, which would enable you to filter links based on a state of your choosing, such as `down`. Alternatively, you could also layer on information such as errors; increasing graph complexity to achieve aims. 
   
 
 ### Determining neighbors using IPv4 addressing
@@ -106,7 +107,7 @@ R5: R3, R4
 
 Please note, we are looking at this at the IPv4 layer. R4, R5 and R3 share an NBMA network segment so there is more actual complexity; however, we simplify for our purposes. 
 
-This adjacency list can then be converted to a (*NetworkX graph*)[https://networkx.org/].
+This adjacency list can then be converted to a (NetworkX graph)[https://networkx.org/].
   
 To determine the adjacency list from the interface-address table produced, we follow the logic:
 ```goat
@@ -159,8 +160,6 @@ In practice, the adjacency list takes the form of a dictonary of lists. This dem
   "R5": ["R3", "R4"]  
 }
 ```
-    
-
 ### Convert adjacency list into a graph
 
 Here is when we are introduced to [NetworkX](https://networkx.org/). 
@@ -180,7 +179,7 @@ networkx_graph = nx.from_dict_of_lists(adj_list)
 To identify SPoFs, we iterate through every node. Removing the node, and seeing if it is a disconnected graph.
 A "disconencted graph" is a graph theory term which states the graph that has two distinct/seperate components, i.e. there are atleast two nodes with no path between them. 
 
-Please note, when impelemnting this in python you need to use the `.copy()` function to create a seprate graph each iteration. Otherwise, you would eventially remove all nodes from your original graph. We want a fresh (original) graph every iteration.  
+Please note, when impelemnting this in python you need to use the `.copy()` function to create a seprate graph each iteration. Otherwise, you would eventially remove all nodes from your original graph; We want a fresh (original) graph every iteration.  
 ```python
 spof_nodes = []
     for node in original_graph.nodes:
@@ -195,7 +194,7 @@ Using the above example, `spof_nodes` now represents all nodes which are SPoFs a
 
 ## Scalability 
 
-I don't want to delve to much into this, as I don't have the time to demonstrate this approach on 10,000's of nodes. However, given this simple data structures explored. I beleive this approach could be scaled up to networks with 100,000's of devices. This could *potentially* be achieved be done by breaking tasks into fundemental compoennts and using tools such as [Apache Hadoop](https://hadoop.apache.org/). 
+I don't want to delve to much into this, as I don't have the time to demonstrate this approach on 10,000's of nodes. However, given the simple data structures explored. I beleive this approach could be scaled up to networks with 100,000's of devices. This could *potentially* be achieved by breaking tasks and using tools such as [Apache Hadoop](https://hadoop.apache.org/). 
 <br><br><br>
 
 ## Practical Applications

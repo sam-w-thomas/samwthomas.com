@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>White-Knight on Sam Thomas</title>
-    <link>/tags/white-knight/</link>
+    <link>//localhost:1313/tags/white-knight/</link>
     <description>Recent content in White-Knight on Sam Thomas</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 06 May 2024 12:00:00 +0100</lastBuildDate>
-    <atom:link href="/tags/white-knight/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/white-knight/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rise Of The Empire Series by Ivan Kal</title>
-      <link>/books/olympus-rise-of-the-empire-ivan-kal/</link>
+      <link>//localhost:1313/books/olympus-rise-of-the-empire-ivan-kal/</link>
       <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
-      <guid>/books/olympus-rise-of-the-empire-ivan-kal/</guid>
+      <guid>//localhost:1313/books/olympus-rise-of-the-empire-ivan-kal/</guid>
       <description></description>
     </item>
   </channel>
