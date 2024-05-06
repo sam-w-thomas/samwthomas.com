@@ -6,14 +6,7 @@
     <description>Recent content in Posts on Sam Thomas</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 May 2024 14:00:00 +0100</lastBuildDate>
+    <lastBuildDate></lastBuildDate>
     <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>SPOF NetworkX Detection</title>
-      <link>/posts/spof-networkx-detection/</link>
-      <pubDate>Mon, 06 May 2024 14:00:00 +0100</pubDate>
-      <guid>/posts/spof-networkx-detection/</guid>
-      <description>Detecting Single Points of Failure using NetworkX The ability to think of a TCP/IP Network as just a mathematical graph, is underutilised by typical (automation) engineers in my opinion. Graph theory is a well established field of mathematics, and converting a (computer) network back to it&amp;rsquo;s graphical state enables us to reap benefits at minimal cost.&#xA;In this blog post, I will introduce converting a (basic) network to a graph, at the IPv4 layer, using Cisco .</description>
-    </item>
   </channel>
 </rss>
