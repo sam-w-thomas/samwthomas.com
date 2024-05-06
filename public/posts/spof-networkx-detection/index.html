@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,7 +16,7 @@
 	<header>
 	<img src="/logo.jpeg" alt="samwthomas site logo" width="15%">
 	================<br>
-	== <a href="/">Sam Thomas</a> ==<br>
+	== <a href="//localhost:1313/">Sam Thomas</a> ==<br>
 	================
 	<div style="float: right;">Technical engineering, plus anything which interests me</div><br>
 	<p>
@@ -61,10 +61,10 @@
 			<div>
 				<!-- raw HTML omitted -->
 <h1 id="detecting-single-points-of-failure-using-networkx">Detecting Single Points of Failure using NetworkX</h1>
-<p>The ability to think of a TCP/IP Network as just a mathematical graph, is underutilised by typical (automation) engineers in my opinion. Graph theory is a well established field of mathematics, and converting a (computer) network back to it&rsquo;s graphical state enables us to reap benefits at minimal cost.</p>
-<p>In this blog post, I will introduce converting a (basic) network to a graph, at the IPv4 layer, using Cisco .cfg files. We can manuplate this graph to detect Single Points of Failure (SPoF).
-This will be the first post in using graphs to gain visibility in your network.</p>
-<p>GitHub Repository for NetApollo,  Python implementation of the approach discussed: <a href="https://github.com/sam-w-thomas/NetApollo">https://github.com/sam-w-thomas/NetApollo</a></p>
+<p>The ability to think of a TCP/IP Network as just a mathematical graph is underutilised by typical (network automation) engineers in my opinion. Graph theory is a well established field of mathematics, and converting a (computer) network to it&rsquo;s graphical state enables us to reap benefits at minimal cost.</p>
+<p>In this blog post, I introduce converting a (basic) network to a graph, at the IPv4 layer, using Cisco .cfg files. We can manuplate this graph to detect Single Points of Failure (SPoF) and audit network reliability.
+This will be the first post in using graphs to gain visibility into (computer) networks.</p>
+<p>GitHub Repository for NetApollo, Python implementation of the approach discussed: <a href="https://github.com/sam-w-thomas/NetApollo">https://github.com/sam-w-thomas/NetApollo</a></p>
 <p>Is is worthwhile pointing out, networking modelling is already a well-practiced disicpline. This is just my contribution!</p>
 <h2 id="graph-theory">Graph Theory</h2>
 <p>Many Network Engineers, without a background in Computer Science, may scratch their head at what a &lsquo;graph&rsquo; is? That&rsquo;s just a bar chart or something right?
@@ -80,7 +80,8 @@ In the world of Computer Science, it has a different meaning - explained below f
 <li>Directed Graphs - edges have a concept of direction</li>
 <li>Undirected Graphs - edges have no concept of direction</li>
 </ul>
-<p>
+<p>Example of a basic graph.
+
 <figure>
   <img src="/graph.PNG" alt="Basic graph" />
 </figure>
@@ -95,11 +96,11 @@ In the world of Computer Science, it has a different meaning - explained below f
 
 
 </p>
-<p>For the purposes of simplicity, all graphs in this post will be undirected graphs. Although, we could use a Directed Graph to represent receive and transmit.</p>
-<h2 id="converting-a-tcpip-network-to-a-graph---theory">Converting a TCP/IP network to a graph - Theory</h2>
-<p>Now, you can&rsquo;t convert a TCP/IP network to just a single graph; We have control, data and management planes for a reason.</p>
-<p>However, we can convert parts of a network to a single graph. For example, the IPv4 layer or the <a href="https://hbristoweu.wordpress.com/2020/09/19/visualising-the-ospf-lsdb-with-python-textfsm-networkx-and-pygraphviz-and-yaml-dumping-the-lsdb/">OSPF Link State Database</a>. <em>We will create a single graph at the IPv4 layer</em>.</p>
-<p>However, to increase complexity and ability, you could layer graphs. As you&rsquo;d expect, graph theory already has a word and ability for this already - Multilayer graphs.
+<p>For the purposes of simplicity, all graphs in this post will be undirected graphs. Although, we could use a directed Graph to represent receive and transmit.</p>
+<h2 id="converting-a-tcpip-network-to-a-graph">Converting a TCP/IP network to a graph</h2>
+<p>Now, you can&rsquo;t convert a TCP/IP network into just a single graph; We have control, data and management planes for a reason.</p>
+<p>However, we can convert parts of a network to a single graph. For example, the IPv4 layer or the <a href="https://hbristoweu.wordpress.com/2020/09/19/visualising-the-ospf-lsdb-with-python-textfsm-networkx-and-pygraphviz-and-yaml-dumping-the-lsdb/">OSPF Link State Database</a>. We shall create a single graph at the IPv4 layer in this blog post.</p>
+<p>However, to increase complexity and ability, you could layer graphs. As you&rsquo;d expect, graph theory has a word and ability for this already - Multilayer graphs.
 
 <figure>
   <img src="https://i0.wp.com/braph.org/wp-content/uploads/2022/04/multiplex.png" alt="Example of a Multilayer Graph" />
@@ -151,10 +152,10 @@ I break this problem down into the following domains:</p>
 
 
 </p>
-<p>We now have a table of the IPv4 addressing for an entire network. Using scale techniques, such as <a href="https://pandas.pydata.org/">Pandas</a> Dataframes and <a href="https://numpy.org/devdocs/index.html/">Numpy</a>, we could increase the efficiency of processing to handle large furthermore - due to the simplicty of the data structured, processing could be split into multiple nodes, further increasing peformace/scalability.</p>
+<p>We now have a table of the IPv4 addressing for an entire network, an &ldquo;interface-address table&rdquo;. Using scale techniques, such as <a href="https://pandas.pydata.org/">Pandas Dataframes</a> and <a href="https://numpy.org/devdocs/index.html/">Numpy</a>, we could increase the efficiency of processing.</p>
 <h3 id="fitering-interfaces-based-on-state">Fitering interfaces based on state</h3>
 <p>I want to keep this relatively short, as I did not implement this approach.
-However, you could use keys in the static configuration (e.g. interface names) and combine this with tools, such as paramiko/TextFSM, which would enable you to filter links based on a state of your choosing, such as <code>down</code>. Alternatively, you could also layer on information like errors and increase graph complexity to achieve more.</p>
+However, you could use keys in the static configuration (e.g. interface names) and combine this with tools, such as paramiko/TextFSM, which would enable you to filter links based on a state of your choosing, such as <code>down</code>. Alternatively, you could also layer on information such as errors; increasing graph complexity to achieve aims.</p>
 <h3 id="determining-neighbors-using-ipv4-addressing">Determining neighbors using IPv4 addressing</h3>
 <p>Iterating through the interface-address table produced, enables us to build an adjacency list. An adjacency list of the network above looks like:<br>
 R1: R2, R3 <br>
@@ -163,7 +164,7 @@ R3: R1, R4, R5<br>
 R4: R3, R5<br>
 R5: R3, R4</p>
 <p>Please note, we are looking at this at the IPv4 layer. R4, R5 and R3 share an NBMA network segment so there is more actual complexity; however, we simplify for our purposes.</p>
-<p>This adjacency list can then be converted to a (<em>NetworkX graph</em>)[https://networkx.org/].</p>
+<p>This adjacency list can then be converted to a (NetworkX graph)[https://networkx.org/].</p>
 <p>To determine the adjacency list from the interface-address table produced, we follow the logic:</p>
 
 
@@ -678,7 +679,7 @@ It provides the basis for (our) python graph manipulation, without us having to 
 </span></span></code></pre></div><h3 id="iterate-through-the-graph-to-find-single-points-of-failure">Iterate through the graph to find Single Points of Failure</h3>
 <p>To identify SPoFs, we iterate through every node. Removing the node, and seeing if it is a disconnected graph.
 A &ldquo;disconencted graph&rdquo; is a graph theory term which states the graph that has two distinct/seperate components, i.e. there are atleast two nodes with no path between them.</p>
-<p>Please note, when impelemnting this in python you need to use the <code>.copy()</code> function to create a seprate graph each iteration. Otherwise, you would eventially remove all nodes from your original graph. We want a fresh (original) graph every iteration.</p>
+<p>Please note, when impelemnting this in python you need to use the <code>.copy()</code> function to create a seprate graph each iteration. Otherwise, you would eventially remove all nodes from your original graph; We want a fresh (original) graph every iteration.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>spof_nodes <span style="color:#f92672">=</span> []
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> node <span style="color:#f92672">in</span> original_graph<span style="color:#f92672">.</span>nodes:
 </span></span><span style="display:flex;"><span>        iteration_graph <span style="color:#f92672">=</span> original_graph<span style="color:#f92672">.</span>copy()
@@ -687,7 +688,7 @@ A &ldquo;disconencted graph&rdquo; is a graph theory term which states the graph
 </span></span><span style="display:flex;"><span>            spof_nodes<span style="color:#f92672">.</span>append(node)
 </span></span></code></pre></div><p>Using the above example, <code>spof_nodes</code> now represents all nodes which are SPoFs at the IPv4 layer.</p>
 <h2 id="scalability">Scalability</h2>
-<p>I don&rsquo;t want to delve to much into this, as I don&rsquo;t have the time to demonstrate this approach on 10,000&rsquo;s of nodes. However, given this simple data structures explored. I beleive this approach could be scaled up to networks with 100,000&rsquo;s of devices. This could <em>potentially</em> be achieved be done by breaking tasks into fundemental compoennts and using tools such as <a href="https://hadoop.apache.org/">Apache Hadoop</a>.
+<p>I don&rsquo;t want to delve to much into this, as I don&rsquo;t have the time to demonstrate this approach on 10,000&rsquo;s of nodes. However, given the simple data structures explored. I beleive this approach could be scaled up to networks with 100,000&rsquo;s of devices. This could <em>potentially</em> be achieved by breaking tasks and using tools such as <a href="https://hadoop.apache.org/">Apache Hadoop</a>.
 <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 <h2 id="practical-applications">Practical Applications</h2>
 <p>Whilst this approach could be used to pull static configuration files and quickly identify Single Points of Failure. There are more complete solutions which may be more appropiate for your particular needs. For example, <a href="https://batfish.org/">Batfish</a> has a <a href="https://batfish.readthedocs.io/en/latest/notebooks/linked/analyzing-the-impact-of-failures-and-letting-loose-a-chaos-monkey.html">comprehensive approach</a> to analyse the impact of network failure in greater complexity than is covered here. However, we hope this blog post can provide a reference for simpler analysis and fundemental learning. Furthermore, propiertry tools/products exist, such as <a href="https://ipfabric.io/">IPFabric</a>.</p>
@@ -712,7 +713,7 @@ A &ldquo;disconencted graph&rdquo; is a graph theory term which states the graph
 
 
 	<footer>
-	<p>&copy; 2024 <a href="/"><b>Sam Thomas</b></a>.
+	<p>&copy; 2024 <a href="//localhost:1313/"><b>Sam Thomas</b></a>.
 	</p>
 </footer>
 

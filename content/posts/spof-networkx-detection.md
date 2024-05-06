@@ -160,8 +160,6 @@ In practice, the adjacency list takes the form of a dictonary of lists. This dem
   "R5": ["R3", "R4"]  
 }
 ```
-    
-
 ### Convert adjacency list into a graph
 
 Here is when we are introduced to [NetworkX](https://networkx.org/). 

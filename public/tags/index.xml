@@ -6,8 +6,57 @@
     <description>Recent content in Tags on Sam Thomas</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 May 2024 12:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 06 May 2024 14:00:00 +0100</lastBuildDate>
     <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automation</title>
+      <link>//localhost:1313/tags/automation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/automation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ciscoconfparse</title>
+      <link>//localhost:1313/tags/ciscoconfparse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/ciscoconfparse/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Graph</title>
+      <link>//localhost:1313/tags/graph/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/graph/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ipv4</title>
+      <link>//localhost:1313/tags/ipv4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/ipv4/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Networkx</title>
+      <link>//localhost:1313/tags/networkx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/networkx/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>//localhost:1313/tags/python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spof</title>
+      <link>//localhost:1313/tags/spof/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/spof/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Action</title>
       <link>//localhost:1313/tags/action/</link>
