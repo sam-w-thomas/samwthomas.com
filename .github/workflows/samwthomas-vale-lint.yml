@@ -1,6 +1,6 @@
 ---
 name: Linting with Vale on pull request
-on: [pull_request]
+on: [push]
 
 jobs:
   vale:
