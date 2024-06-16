@@ -1,16 +1,16 @@
 ---
-name: ValeLinting
+name: ValeLintingBooks
 on: [push]
 
 jobs:
   vale:
-    name: ValeLinting
+    name: ValeLintingBooks
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - uses: errata-ai/vale-action@reviewdog
         with:
-          files: "content"
+          files: "content/books"
           filter_mode: diff_context
           vale_flags: "--no-exit --minAlertLevel=error"
           reporter: github-check
