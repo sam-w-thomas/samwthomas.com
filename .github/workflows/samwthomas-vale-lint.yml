@@ -1,5 +1,5 @@
 ---
-name: Linting with Vale on pull request
+name: Vale Linting
 on: [push]
 
 jobs:
@@ -13,7 +13,7 @@ jobs:
           files: "content"
           filter_mode: diff_context
           vale_flags: "--no-exit --minAlertLevel=error"
-          reporter: github-check
+          reporter: github-pr-review
           fail_on_error: false
         env:
           # Required, set by GitHub actions automatically:
