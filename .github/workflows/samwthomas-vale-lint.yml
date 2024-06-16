@@ -1,10 +1,10 @@
 ---
-name: Vale Linting
+name: ValeLinting
 on: [push]
 
 jobs:
   vale:
-    name: Linting with Vale
+    name: ValeLinting
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
