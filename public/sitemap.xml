@@ -3,13 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>//localhost:1313/tags/automation/</loc>
-    <lastmod>2024-05-06T16:30:00+01:00</lastmod>
+    <lastmod>2024-06-17T16:30:00+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/categories/automation/</loc>
-    <lastmod>2024-05-06T16:30:00+01:00</lastmod>
+    <lastmod>2024-06-17T16:30:00+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/categories/</loc>
-    <lastmod>2024-05-06T16:30:00+01:00</lastmod>
+    <lastmod>2024-06-17T16:30:00+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/documentation/</loc>
+    <lastmod>2024-06-17T16:30:00+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/github/</loc>
+    <lastmod>2024-06-17T16:30:00+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/github_actions/</loc>
+    <lastmod>2024-06-17T16:30:00+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/linting/</loc>
+    <lastmod>2024-06-17T16:30:00+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/pipelines/</loc>
+    <lastmod>2024-06-17T16:30:00+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/</loc>
+    <lastmod>2024-06-17T16:30:00+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/</loc>
+    <lastmod>2024-06-17T16:30:00+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/static-website-vale-validation/</loc>
+    <lastmod>2024-06-17T16:30:00+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2024-06-17T16:30:00+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/vale/</loc>
+    <lastmod>2024-06-17T16:30:00+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/ciscoconfparse/</loc>
     <lastmod>2024-05-06T16:30:00+01:00</lastmod>
@@ -23,22 +53,13 @@
     <loc>//localhost:1313/tags/networkx/</loc>
     <lastmod>2024-05-06T16:30:00+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/</loc>
-    <lastmod>2024-05-06T16:30:00+01:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/tags/python/</loc>
-    <lastmod>2024-05-06T16:30:00+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/</loc>
     <lastmod>2024-05-06T16:30:00+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/spof/</loc>
     <lastmod>2024-05-06T16:30:00+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/posts/spof-networkx-detection/</loc>
-    <lastmod>2024-05-06T16:30:00+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/</loc>
     <lastmod>2024-05-06T16:30:00+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/books/1493-charles-mann/</loc>
@@ -227,7 +248,22 @@
     <loc>//localhost:1313/tags/white-knight/</loc>
     <lastmod>2024-05-06T12:00:00+01:00</lastmod>
   </url><url>
+    <loc>//localhost:1313/tags/action_packed/</loc>
+    <lastmod>2024-04-15T20:50:50+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/alien_invasion/</loc>
+    <lastmod>2024-04-15T20:50:50+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/aliens/</loc>
+    <lastmod>2024-04-15T20:50:50+01:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/tags/alt_realities/</loc>
+    <lastmod>2024-04-15T20:50:50+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/conquest/</loc>
+    <lastmod>2024-04-15T20:50:50+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/first_contact/</loc>
     <lastmod>2024-04-15T20:50:50+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/imaginary_worlds/</loc>
@@ -236,10 +272,19 @@
     <loc>//localhost:1313/tags/life/</loc>
     <lastmod>2024-04-15T20:50:50+01:00</lastmod>
   </url><url>
+    <loc>//localhost:1313/tags/multiple_povs/</loc>
+    <lastmod>2024-04-15T20:50:50+01:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/tags/philosophy/</loc>
     <lastmod>2024-04-15T20:50:50+01:00</lastmod>
   </url><url>
+    <loc>//localhost:1313/tags/space_opera/</loc>
+    <lastmod>2024-04-15T20:50:50+01:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/books/star-maker-olaf-stapledon/</loc>
+    <lastmod>2024-04-15T20:50:50+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/books/salvation-sequence-peter-f-hamilton/</loc>
     <lastmod>2024-04-15T20:50:50+01:00</lastmod>
   </url>
 </urlset>

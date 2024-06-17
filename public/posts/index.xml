@@ -4,10 +4,17 @@
     <title>Posts on Sam Thomas</title>
     <link>//localhost:1313/posts/</link>
     <description>Recent content in Posts on Sam Thomas</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 May 2024 16:30:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 17 Jun 2024 16:30:00 +0100</lastBuildDate>
     <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Static website validation with Vale</title>
+      <link>//localhost:1313/posts/static-website-vale-validation/</link>
+      <pubDate>Mon, 17 Jun 2024 16:30:00 +0100</pubDate>
+      <guid>//localhost:1313/posts/static-website-vale-validation/</guid>
+      <description>Introduction samwthomas.com is hosted using an application called Hugo, this is a &amp;ldquo;static website&amp;rdquo; application which converts basic files, into a richer onlne version. For example, in our case it converts a series of Markdown documents in a folder, into a website with pages, navigation and styling. The benefit of this is that new content can be added easily, and can be managed through established version control procedures. However, many spelling and grammer checks are not aware of markdown; furthermore, version control systems are often integrated into pipelines, but automated documentation review (spelling and grammer, styling, use of specific langauge) is something I rarely see in these documentation.</description>
+    </item>
     <item>
       <title>SPOF NetworkX Detection</title>
       <link>//localhost:1313/posts/spof-networkx-detection/</link>

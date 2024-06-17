@@ -4,414 +4,505 @@
     <title>Tags on Sam Thomas</title>
     <link>//localhost:1313/tags/</link>
     <description>Recent content in Tags on Sam Thomas</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 May 2024 16:30:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 17 Jun 2024 16:30:00 +0100</lastBuildDate>
     <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Automation</title>
       <link>//localhost:1313/tags/automation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 17 Jun 2024 16:30:00 +0100</pubDate>
       <guid>//localhost:1313/tags/automation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Documentation</title>
+      <link>//localhost:1313/tags/documentation/</link>
+      <pubDate>Mon, 17 Jun 2024 16:30:00 +0100</pubDate>
+      <guid>//localhost:1313/tags/documentation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Github</title>
+      <link>//localhost:1313/tags/github/</link>
+      <pubDate>Mon, 17 Jun 2024 16:30:00 +0100</pubDate>
+      <guid>//localhost:1313/tags/github/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Github_actions</title>
+      <link>//localhost:1313/tags/github_actions/</link>
+      <pubDate>Mon, 17 Jun 2024 16:30:00 +0100</pubDate>
+      <guid>//localhost:1313/tags/github_actions/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linting</title>
+      <link>//localhost:1313/tags/linting/</link>
+      <pubDate>Mon, 17 Jun 2024 16:30:00 +0100</pubDate>
+      <guid>//localhost:1313/tags/linting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pipelines</title>
+      <link>//localhost:1313/tags/pipelines/</link>
+      <pubDate>Mon, 17 Jun 2024 16:30:00 +0100</pubDate>
+      <guid>//localhost:1313/tags/pipelines/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vale</title>
+      <link>//localhost:1313/tags/vale/</link>
+      <pubDate>Mon, 17 Jun 2024 16:30:00 +0100</pubDate>
+      <guid>//localhost:1313/tags/vale/</guid>
       <description></description>
     </item>
     <item>
       <title>Ciscoconfparse</title>
       <link>//localhost:1313/tags/ciscoconfparse/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 16:30:00 +0100</pubDate>
       <guid>//localhost:1313/tags/ciscoconfparse/</guid>
       <description></description>
     </item>
     <item>
       <title>Graph</title>
       <link>//localhost:1313/tags/graph/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 16:30:00 +0100</pubDate>
       <guid>//localhost:1313/tags/graph/</guid>
       <description></description>
     </item>
     <item>
       <title>Ipv4</title>
       <link>//localhost:1313/tags/ipv4/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 16:30:00 +0100</pubDate>
       <guid>//localhost:1313/tags/ipv4/</guid>
       <description></description>
     </item>
     <item>
       <title>Networkx</title>
       <link>//localhost:1313/tags/networkx/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 16:30:00 +0100</pubDate>
       <guid>//localhost:1313/tags/networkx/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
       <link>//localhost:1313/tags/python/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 16:30:00 +0100</pubDate>
       <guid>//localhost:1313/tags/python/</guid>
       <description></description>
     </item>
     <item>
       <title>Spof</title>
       <link>//localhost:1313/tags/spof/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 16:30:00 +0100</pubDate>
       <guid>//localhost:1313/tags/spof/</guid>
       <description></description>
     </item>
     <item>
       <title>Action</title>
       <link>//localhost:1313/tags/action/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
       <guid>//localhost:1313/tags/action/</guid>
       <description></description>
     </item>
     <item>
       <title>Adventure</title>
       <link>//localhost:1313/tags/adventure/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
       <guid>//localhost:1313/tags/adventure/</guid>
       <description></description>
     </item>
     <item>
       <title>Alternative-Earth</title>
       <link>//localhost:1313/tags/alternative-earth/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
       <guid>//localhost:1313/tags/alternative-earth/</guid>
       <description></description>
     </item>
     <item>
       <title>Behavioural_economics</title>
       <link>//localhost:1313/tags/behavioural_economics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
       <guid>//localhost:1313/tags/behavioural_economics/</guid>
       <description></description>
     </item>
     <item>
       <title>Bussiness</title>
       <link>//localhost:1313/tags/bussiness/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
       <guid>//localhost:1313/tags/bussiness/</guid>
       <description></description>
     </item>
     <item>
       <title>Chineese</title>
       <link>//localhost:1313/tags/chineese/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
       <guid>//localhost:1313/tags/chineese/</guid>
       <description></description>
     </item>
     <item>
       <title>Civilisation</title>
       <link>//localhost:1313/tags/civilisation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
       <guid>//localhost:1313/tags/civilisation/</guid>
       <description></description>
     </item>
     <item>
       <title>Colonial_period</title>
       <link>//localhost:1313/tags/colonial_period/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
       <guid>//localhost:1313/tags/colonial_period/</guid>
       <description></description>
     </item>
     <item>
       <title>Columbian_exchange</title>
       <link>//localhost:1313/tags/columbian_exchange/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
       <guid>//localhost:1313/tags/columbian_exchange/</guid>
       <description></description>
     </item>
     <item>
       <title>Columbus</title>
       <link>//localhost:1313/tags/columbus/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
       <guid>//localhost:1313/tags/columbus/</guid>
       <description></description>
     </item>
     <item>
       <title>Cultivation</title>
       <link>//localhost:1313/tags/cultivation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
       <guid>//localhost:1313/tags/cultivation/</guid>
       <description></description>
     </item>
     <item>
       <title>Economics</title>
       <link>//localhost:1313/tags/economics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
       <guid>//localhost:1313/tags/economics/</guid>
       <description></description>
     </item>
     <item>
       <title>Empathy</title>
       <link>//localhost:1313/tags/empathy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
       <guid>//localhost:1313/tags/empathy/</guid>
       <description></description>
     </item>
     <item>
       <title>Empire-Building</title>
       <link>//localhost:1313/tags/empire-building/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
       <guid>//localhost:1313/tags/empire-building/</guid>
       <description></description>
     </item>
     <item>
       <title>Encourage</title>
       <link>//localhost:1313/tags/encourage/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
       <guid>//localhost:1313/tags/encourage/</guid>
       <description></description>
     </item>
     <item>
       <title>Evolution</title>
       <link>//localhost:1313/tags/evolution/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
       <guid>//localhost:1313/tags/evolution/</guid>
       <description></description>
     </item>
     <item>
       <title>Fantasy</title>
       <link>//localhost:1313/tags/fantasy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
       <guid>//localhost:1313/tags/fantasy/</guid>
       <description></description>
     </item>
     <item>
       <title>Far-Future</title>
       <link>//localhost:1313/tags/far-future/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
       <guid>//localhost:1313/tags/far-future/</guid>
       <description></description>
     </item>
     <item>
       <title>Fiancial_investment</title>
       <link>//localhost:1313/tags/fiancial_investment/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
       <guid>//localhost:1313/tags/fiancial_investment/</guid>
       <description></description>
     </item>
     <item>
       <title>Future</title>
       <link>//localhost:1313/tags/future/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
       <guid>//localhost:1313/tags/future/</guid>
       <description></description>
     </item>
     <item>
       <title>Future-Earth</title>
       <link>//localhost:1313/tags/future-earth/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
       <guid>//localhost:1313/tags/future-earth/</guid>
       <description></description>
     </item>
     <item>
       <title>Gods</title>
       <link>//localhost:1313/tags/gods/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
       <guid>//localhost:1313/tags/gods/</guid>
       <description></description>
     </item>
     <item>
       <title>Gods&amp;kings</title>
       <link>//localhost:1313/tags/godskings/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
       <guid>//localhost:1313/tags/godskings/</guid>
       <description></description>
     </item>
     <item>
       <title>History</title>
       <link>//localhost:1313/tags/history/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
       <guid>//localhost:1313/tags/history/</guid>
       <description></description>
     </item>
     <item>
       <title>Human_geography</title>
       <link>//localhost:1313/tags/human_geography/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
       <guid>//localhost:1313/tags/human_geography/</guid>
       <description></description>
     </item>
     <item>
       <title>Ideas</title>
       <link>//localhost:1313/tags/ideas/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
       <guid>//localhost:1313/tags/ideas/</guid>
       <description></description>
     </item>
     <item>
       <title>Imperial</title>
       <link>//localhost:1313/tags/imperial/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
       <guid>//localhost:1313/tags/imperial/</guid>
       <description></description>
     </item>
     <item>
       <title>Influence</title>
       <link>//localhost:1313/tags/influence/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
       <guid>//localhost:1313/tags/influence/</guid>
       <description></description>
     </item>
     <item>
       <title>Influence_people</title>
       <link>//localhost:1313/tags/influence_people/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
       <guid>//localhost:1313/tags/influence_people/</guid>
       <description></description>
     </item>
     <item>
       <title>Kingdom_building</title>
       <link>//localhost:1313/tags/kingdom_building/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
       <guid>//localhost:1313/tags/kingdom_building/</guid>
       <description></description>
     </item>
     <item>
       <title>Kingdom-Building</title>
       <link>//localhost:1313/tags/kingdom-building/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
       <guid>//localhost:1313/tags/kingdom-building/</guid>
       <description></description>
     </item>
     <item>
       <title>Kings</title>
       <link>//localhost:1313/tags/kings/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
       <guid>//localhost:1313/tags/kings/</guid>
       <description></description>
     </item>
     <item>
       <title>Native_american</title>
       <link>//localhost:1313/tags/native_american/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
       <guid>//localhost:1313/tags/native_american/</guid>
       <description></description>
     </item>
     <item>
       <title>New_world</title>
       <link>//localhost:1313/tags/new_world/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
       <guid>//localhost:1313/tags/new_world/</guid>
       <description></description>
     </item>
     <item>
       <title>Ngo</title>
       <link>//localhost:1313/tags/ngo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
       <guid>//localhost:1313/tags/ngo/</guid>
       <description></description>
     </item>
     <item>
       <title>Overpowered</title>
       <link>//localhost:1313/tags/overpowered/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
       <guid>//localhost:1313/tags/overpowered/</guid>
       <description></description>
     </item>
     <item>
       <title>Plants</title>
       <link>//localhost:1313/tags/plants/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
       <guid>//localhost:1313/tags/plants/</guid>
       <description></description>
     </item>
     <item>
       <title>Poor</title>
       <link>//localhost:1313/tags/poor/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
       <guid>//localhost:1313/tags/poor/</guid>
       <description></description>
     </item>
     <item>
       <title>Povertry</title>
       <link>//localhost:1313/tags/povertry/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
       <guid>//localhost:1313/tags/povertry/</guid>
       <description></description>
     </item>
     <item>
       <title>Progression</title>
       <link>//localhost:1313/tags/progression/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
       <guid>//localhost:1313/tags/progression/</guid>
       <description></description>
     </item>
     <item>
       <title>Rags_to_riches</title>
       <link>//localhost:1313/tags/rags_to_riches/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
       <guid>//localhost:1313/tags/rags_to_riches/</guid>
       <description></description>
     </item>
     <item>
       <title>Romance</title>
       <link>//localhost:1313/tags/romance/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
       <guid>//localhost:1313/tags/romance/</guid>
       <description></description>
     </item>
     <item>
       <title>Scope</title>
       <link>//localhost:1313/tags/scope/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
       <guid>//localhost:1313/tags/scope/</guid>
       <description></description>
     </item>
     <item>
       <title>Space-Opera</title>
       <link>//localhost:1313/tags/space-opera/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
       <guid>//localhost:1313/tags/space-opera/</guid>
       <description></description>
     </item>
     <item>
       <title>Vikings</title>
       <link>//localhost:1313/tags/vikings/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
       <guid>//localhost:1313/tags/vikings/</guid>
       <description></description>
     </item>
     <item>
       <title>War</title>
       <link>//localhost:1313/tags/war/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
       <guid>//localhost:1313/tags/war/</guid>
       <description></description>
     </item>
     <item>
       <title>White-Knight</title>
       <link>//localhost:1313/tags/white-knight/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 May 2024 12:00:00 +0100</pubDate>
       <guid>//localhost:1313/tags/white-knight/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Action_packed</title>
+      <link>//localhost:1313/tags/action_packed/</link>
+      <pubDate>Mon, 15 Apr 2024 20:50:50 +0100</pubDate>
+      <guid>//localhost:1313/tags/action_packed/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Alien_invasion</title>
+      <link>//localhost:1313/tags/alien_invasion/</link>
+      <pubDate>Mon, 15 Apr 2024 20:50:50 +0100</pubDate>
+      <guid>//localhost:1313/tags/alien_invasion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Aliens</title>
+      <link>//localhost:1313/tags/aliens/</link>
+      <pubDate>Mon, 15 Apr 2024 20:50:50 +0100</pubDate>
+      <guid>//localhost:1313/tags/aliens/</guid>
       <description></description>
     </item>
     <item>
       <title>Alt_realities</title>
       <link>//localhost:1313/tags/alt_realities/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 15 Apr 2024 20:50:50 +0100</pubDate>
       <guid>//localhost:1313/tags/alt_realities/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Conquest</title>
+      <link>//localhost:1313/tags/conquest/</link>
+      <pubDate>Mon, 15 Apr 2024 20:50:50 +0100</pubDate>
+      <guid>//localhost:1313/tags/conquest/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>First_contact</title>
+      <link>//localhost:1313/tags/first_contact/</link>
+      <pubDate>Mon, 15 Apr 2024 20:50:50 +0100</pubDate>
+      <guid>//localhost:1313/tags/first_contact/</guid>
       <description></description>
     </item>
     <item>
       <title>Imaginary_worlds</title>
       <link>//localhost:1313/tags/imaginary_worlds/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 15 Apr 2024 20:50:50 +0100</pubDate>
       <guid>//localhost:1313/tags/imaginary_worlds/</guid>
       <description></description>
     </item>
     <item>
       <title>Life</title>
       <link>//localhost:1313/tags/life/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 15 Apr 2024 20:50:50 +0100</pubDate>
       <guid>//localhost:1313/tags/life/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Multiple_povs</title>
+      <link>//localhost:1313/tags/multiple_povs/</link>
+      <pubDate>Mon, 15 Apr 2024 20:50:50 +0100</pubDate>
+      <guid>//localhost:1313/tags/multiple_povs/</guid>
       <description></description>
     </item>
     <item>
       <title>Philosophy</title>
       <link>//localhost:1313/tags/philosophy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 15 Apr 2024 20:50:50 +0100</pubDate>
       <guid>//localhost:1313/tags/philosophy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Space_opera</title>
+      <link>//localhost:1313/tags/space_opera/</link>
+      <pubDate>Mon, 15 Apr 2024 20:50:50 +0100</pubDate>
+      <guid>//localhost:1313/tags/space_opera/</guid>
       <description></description>
     </item>
   </channel>
