@@ -21,12 +21,12 @@ tags:
 
 The ability to think of a TCP/IP Network as just a mathematical graph is underutilised by typical (network automation) engineers in my opinion. Graph theory is a well established field of mathematics, and converting a (computer) network to it's graphical state enables us to reap benefits at minimal cost.
 
-In this blog post, I introduce converting a (basic) network to a graph, at the IPv4 layer, using Cisco .cfg files. We can manuplate this graph to detect Single Points of Failure (SPoF) and audit network reliability.
+In this blog post, I introduce converting a (basic) network to a graph, at the IPv4 layer, using Cisco .cfg files. We can manipulate this graph to detect Single Points of Failure (SPoF) and audit network reliability.
 This will be the first post in using graphs to gain visibility into (computer) networks.
 
 GitHub Repository for NetApollo, Python implementation of the approach discussed: https://github.com/sam-w-thomas/NetApollo
 
-Is is worthwhile pointing out, networking modelling is already a well-practiced disicpline. This is just my contribution! 
+Is is worthwhile pointing out, networking modelling is already a well-practiced discipline. This is just my contribution! 
 
 ## Graph Theory
 Many Network Engineers, without a background in Computer Science, may scratch their head at what a 'graph' is? That's just a bar chart or something right? 
@@ -47,7 +47,7 @@ Example of a basic graph.
 ![Basic graph](/graph.PNG)
 
 Here is the graph, but it's in it's (physical) network form.
-![Graph covnereted to a (basic) physical view of a network](/network_graph.PNG)
+![Graph converted to a (basic) physical view of a network](/network_graph.PNG)
 
 For the purposes of simplicity, all graphs in this post will be undirected graphs. Although, we could use a directed Graph to represent receive and transmit. 
 
@@ -72,12 +72,12 @@ I break this problem down into the following domains:
   
 
 ### Gathering IPv4 addressing
-Fundementally, there are two approaches we can use to gather addressing, neither are mutally exclusive:
+Fundamentally, there are two approaches we can use to gather addressing, neither are mutually exclusive:
 * Configuration files
 * State information (e.g. "show" commands in Cisco)
 
 In [NetApollo](https://github.com/sam-w-thomas/NetApollo) I demonstrate using just configuration files. This has the following advantages:
-* Enables a third-party to audit configuration with no live connectivity requirements (or equivilient)
+* Enables a third-party to audit configuration with no live connectivity requirements (or equivalent)
 * Provides a building block for other information. For example, we could *add* state information onto the configuration files
 
 In NetApollo, IPv4 addressing is achieved using [ciscoconfparse](https://pypi.org/project/ciscoconfparse/). This scrapes the configuration files in a folder, and is used to produce the following structure for each interface:
@@ -90,7 +90,7 @@ If we apply this logic to an actual network, the one below, we get the following
 We now have a table of the IPv4 addressing for an entire network, an "interface-address table". Using scale techniques, such as [Pandas Dataframes](https://pandas.pydata.org/) and [Numpy](https://numpy.org/devdocs/index.html/), we could increase the efficiency of processing.
   
 
-### Fitering interfaces based on state
+### Filtering interfaces based on state
 
 I want to keep this relatively short, as I did not implement this approach.
 However, you could use keys in the static configuration (e.g. interface names) and combine this with tools, such as paramiko/TextFSM, which would enable you to filter links based on a state of your choosing, such as `down`. Alternatively, you could also layer on information such as errors; increasing graph complexity to achieve aims. 
@@ -150,7 +150,7 @@ table for inner-loop   |            |  neighbors                                
                        |                            NO                                  |                                                            
                        +----------------------------------------------------------------+                                                            
 ```
-In practice, the adjacency list takes the form of a dictonary of lists. This demonstrated below for the example topology shown above. 
+In practice, the adjacency list takes the form of a dictionary of lists. This demonstrated below for the example topology shown above. 
 ```python
 {
   "R1": ["R2", "R3"],
@@ -164,9 +164,9 @@ In practice, the adjacency list takes the form of a dictonary of lists. This dem
 
 Here is when we are introduced to [NetworkX](https://networkx.org/). 
 NetworkX describes itself as ".. a Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks". 
-It provides the basis for (our) python graph manipulation, without us having to do the hardwork. 
+It provides the basis for (our) python graph manipulation, without us having to do the hard work. 
 
-To load our adjanecy list as a NetworkX Graph, we only need the following code:
+To load our adjacency list as a NetworkX Graph, we only need the following code:
 ```python
 import networkx as nx
 
@@ -177,9 +177,9 @@ networkx_graph = nx.from_dict_of_lists(adj_list)
 ### Iterate through the graph to find Single Points of Failure
 
 To identify SPoFs, we iterate through every node. Removing the node, and seeing if it is a disconnected graph.
-A "disconencted graph" is a graph theory term which states the graph that has two distinct/seperate components, i.e. there are atleast two nodes with no path between them. 
+A "disconnected graph" is a graph theory term which states the graph that has two distinct/seperate components, i.e. there are at least two nodes with no path between them. 
 
-Please note, when impelemnting this in python you need to use the `.copy()` function to create a seprate graph each iteration. Otherwise, you would eventially remove all nodes from your original graph; We want a fresh (original) graph every iteration.  
+Please note, when implementing this in python you need to use the `.copy()` function to create a separate graph each iteration. Otherwise, you would eventually remove all nodes from your original graph; We want a fresh (original) graph every iteration.  
 ```python
 spof_nodes = []
     for node in original_graph.nodes:
@@ -194,9 +194,9 @@ Using the above example, `spof_nodes` now represents all nodes which are SPoFs a
 
 ## Scalability 
 
-I don't want to delve to much into this, as I don't have the time to demonstrate this approach on 10,000's of nodes. However, given the simple data structures explored. I beleive this approach could be scaled up to networks with 100,000's of devices. This could *potentially* be achieved by breaking tasks and using tools such as [Apache Hadoop](https://hadoop.apache.org/). 
+I don't want to delve to much into this, as I don't have the time to demonstrate this approach on 10,000's of nodes. However, given the simple data structures explored. I believe this approach could be scaled up to networks with 100,000's of devices. This could *potentially* be achieved by breaking tasks and using tools such as [Apache Hadoop](https://hadoop.apache.org/). 
 <br><br><br>
 
 ## Practical Applications
 
-Whilst this approach could be used to pull static configuration files and quickly identify Single Points of Failure. There are more complete solutions which may be more appropiate for your particular needs. For example, [Batfish](https://batfish.org/) has a [comprehensive approach](https://batfish.readthedocs.io/en/latest/notebooks/linked/analyzing-the-impact-of-failures-and-letting-loose-a-chaos-monkey.html) to analyse the impact of network failure in greater complexity than is covered here. However, we hope this blog post can provide a reference for simpler analysis and fundemental learning. Furthermore, propiertry tools/products exist, such as [IPFabric](https://ipfabric.io/).
+Whilst this approach could be used to pull static configuration files and quickly identify Single Points of Failure. There exist more complete solutions which may be more appropriate for your particular needs. For example, [Batfish](https://batfish.org/) has a [comprehensive approach](https://batfish.readthedocs.io/en/latest/notebooks/linked/analyzing-the-impact-of-failures-and-letting-loose-a-chaos-monkey.html) to analyse the impact of network failure in greater complexity than is covered here. However, we hope this blog post can provide a reference for simpler analysis and fundamental learning. Furthermore, proprietary tools/products exist, such as [IPFabric](https://ipfabric.io/).
