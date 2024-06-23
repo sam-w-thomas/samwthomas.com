@@ -23,4 +23,7 @@ sectionPagesMenu = 'main'
         name = "LinkedIn"
         url = "https://uk.linkedin.com/in/samuelthomas0"
         weight = 2 
-      
+
+[markup.goldmark.renderer]
+unsafe = true
+
