@@ -15,5 +15,5 @@ tags:
   - multiple_povs
   - action_packed
 ---
-The Saints of Salvation Trilolgy presents, the most realistic near-future envisioning of earth that I have seen; with one small caveet - quantum-entagled portls. However, even this is not too far fetched as it enables us to picture a hyper-connected world, albeit -perhaps unrealistictly.  
+The Saints of Salvation Trilogy presents, the most realistic near-future envisioning of earth that I have seen; with one small caveat - quantum-entagled portals. However, even this is not too far fetched as it enables us to picture a hyper-connected world, albeit -perhaps unrealistically.
 << MORE TO COME >>>
