@@ -143,7 +143,7 @@ Once your site is setup on GitHub, adding a workflow is as simple as adding a `.
 2. Create `{action_name}.yml` file in `.github/workflows`
 ![GitHub Actions workflows](/vale_seperate_categories.PNG)  
 3. Populate the action file. Below gives guidance. 
-![GitHub Action Content](/vale_seperate_categories.PNG)  
+![GitHub Action Content](/github_action.PNG)  
 4. Add, Commit and Push your content to GitHub. I push to main (currently) so I require no additional pull-requests following this.
 
 Now, looking at the actions tag in GitHub, you should see each action being run. In the case of samwthomas.com - we split out Posts/Books so there will be two actions per push. Clicking a workflow gives further information on what triggered the success/fail. `ReviewDog` provides the granular level of detail:
